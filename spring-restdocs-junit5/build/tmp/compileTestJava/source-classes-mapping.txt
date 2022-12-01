@@ -1,0 +1,2 @@
+com/example/junit5/SampleJUnit5ApplicationTests.java
+ com.example.junit5.SampleJUnit5ApplicationTests
