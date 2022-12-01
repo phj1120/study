@@ -36,7 +36,7 @@ public class UserDto {
       if(user == null) return null;
 
       return UserDto.builder()
-              .username(user.getUsername())
+              .username(user.getAuthId())
               .nickname(user.getNickname())
               .authorityDtoSet(user.getAuthorities().stream()
                       .map(authority -> AuthorityDto.builder().authorityType(authority.getAuthorityType()).build())
