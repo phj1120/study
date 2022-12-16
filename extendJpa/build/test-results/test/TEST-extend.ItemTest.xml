@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="extend.ItemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-16T06:31:21" hostname="HJ" time="0.027">
+  <properties/>
+  <testcase name="상속_업캐스팅()" classname="extend.ItemTest" time="0.027"/>
+  <system-out><![CDATA[item.produce
+화분입니다.
+1개에 20000원 입니다.
+
+book.produce
+비울수록 가득하네입니다.
+1권에 15000원 입니다.
+지은이는 정목입니다.
+
+music.produce
+주인공입니다.
+1곡에 10000원 입니다.
+가수는 선미입니다.
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
